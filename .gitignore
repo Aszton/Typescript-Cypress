@@ -1,0 +1,6 @@
+# Dependency directory
+node_modules
+
+# Videos and Screenshoots from tests
+screenshoots
+videos
