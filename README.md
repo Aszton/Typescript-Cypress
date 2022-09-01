@@ -1,5 +1,3 @@
-# Typescript-Cypress
-
 ![cypress_github](https://miro.medium.com/max/480/1*bMB71PXANGQd0MV5Gx82Jw.jpeg)
 ### How to start:
 1. Install [Node JS](https://nodejs.org/en/download/)
