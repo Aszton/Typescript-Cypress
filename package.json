@@ -1,0 +1,28 @@
+{
+  "name": "typescript-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aszton/Typescript-Cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "ts"
+  ],
+  "author": "Bartosz Kuczera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aszton/Typescript-Cypress/issues"
+  },
+  "homepage": "https://github.com/Aszton/Typescript-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "typescript": "^4.8.2"
+  }
+}
