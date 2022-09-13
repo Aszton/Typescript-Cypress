@@ -7,6 +7,18 @@ export default defineConfig({
     defaultCommandTimeout: 5000,
     requestTimeout: 5000,
     projectId: "t7mkm6",
-    setupNodeEvents(on, config) {},
+    setupNodeEvents(on, config) {
+      require("cypress-mochawesome-reporter/plugin")(on);
+    },
+    reporter: "cypress-mochawesome-reporter",
+    reporterOptions: {
+      charts: true,
+      reportPageTitle: "Cypress TypeScript report",
+      embeddedScreenshots: true,
+      inlineAssets: true,
+      saveAllAttempts: false,
+    },
+    screenshotOnRunFailure: true,
+    video: false,
   },
 });
