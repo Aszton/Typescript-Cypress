@@ -5,7 +5,7 @@
 ```ruby
 git clone https://github.com/Aszton/Typescript-Cypress.git
 ```
-3. In the terminal go to the folder with project and install Cypress:
+3. In the terminal go to the folder with project and install all dev dependencies:
 ```ruby
 npm install
 ```
