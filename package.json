@@ -6,7 +6,8 @@
   "scripts": {
     "electron-tests": "npx cypress run",
     "chrome-tests": "npx cypress run --browser chrome",
-    "chrome-visible": "npx cypress run --browser chrome --headed"
+    "chrome-visible": "npx cypress run --browser chrome --headed",
+    "cypress-dashboad": "npx cypress run --record --key 63fbb5eb-105a-45ba-acca-3d894e4db877"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/Aszton/Typescript-Cypress#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "cypress": "^10.7.0",
     "typescript": "^4.8.2"
   }

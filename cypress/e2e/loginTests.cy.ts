@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
 import user from "../fixtures/user.json";
+const { faker } = require("@faker-js/faker")
 
 describe("Login Tests", () => {
   beforeEach(() => {
@@ -12,7 +13,7 @@ describe("Login Tests", () => {
     cy.isUserLoginCorrectly();
   });
   it("Login with invalid creditentials", () => {
-    cy.fillLoginInputs(`${user.fail}`, `${user.fail}`);
+    cy.fillLoginInputs(faker.internet.email(), faker.internet.password());
     cy.clickSignInButton();
     cy.isLoginErrorMessageDisplayed();
   });
