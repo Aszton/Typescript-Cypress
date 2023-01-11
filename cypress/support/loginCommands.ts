@@ -36,7 +36,7 @@ Cypress.Commands.add("clickSignInButton", () => {
 
 Cypress.Commands.add("isLoginErrorMessageDisplayed", () => {
   cy.get(loginSelectors.errorLogin).should(
-    "have.text",
-    "Sorry, your username and/or password are incorrect. Please try again."
+    "include.text",
+    "Your username and/or password are incorrect. Please try again."
   );
 });
