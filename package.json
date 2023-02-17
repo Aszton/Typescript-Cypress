@@ -26,8 +26,8 @@
   "homepage": "https://github.com/Aszton/Typescript-Cypress#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
-    "cypress": "^10.7.0",
-    "cypress-mochawesome-reporter": "^3.2.2",
-    "typescript": "^4.8.2"
+    "cypress": "^12.5.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "typescript": "^4.9.5"
   }
 }

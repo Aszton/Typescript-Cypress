@@ -1,6 +1,8 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  chromeWebSecurity: false,
+  experimentalModifyObstructiveThirdPartyCode: true,
   e2e: {
     viewportWidth: 1280,
     viewportHeight: 720,
