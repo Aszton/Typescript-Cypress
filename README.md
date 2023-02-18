@@ -1,4 +1,8 @@
 ![cypress_github](https://miro.medium.com/max/480/1*bMB71PXANGQd0MV5Gx82Jw.jpeg)
+## This project is an example how to use: </br>
+- Custom commands </br>
+- Fixtures / json files </br>
+- Separate selectors </br>
 ### How to start:
 1. Install [Node JS](https://nodejs.org/en/download/)
 2. Clone the project to your local machine:
