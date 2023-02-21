@@ -7,7 +7,7 @@ describe("Login Tests", () => {
   });
 
   it("Login with valid creditentials", () => {
-    cy.fillLoginInputs(`${user.mail}`, `${user.password}`);
+    cy.fillLoginInputs(user.mail, user.password);
     cy.clickSignInButton();
     cy.isUserLoginCorrectly();
   });
