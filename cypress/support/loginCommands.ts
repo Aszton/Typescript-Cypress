@@ -1,5 +1,5 @@
 import { loginSelectors } from "./selectors/loginSelectors";
-
+export {};
 declare global {
   namespace Cypress {
     interface Chainable {
@@ -12,7 +12,7 @@ declare global {
 }
 
 Cypress.Commands.add("openLoginPage", () => {
-  cy.visit("https://demo.saleor.io/dashboard/");
+  cy.visit("/");
   cy.title().should("eq", "Saleor e-commerce");
 });
 
