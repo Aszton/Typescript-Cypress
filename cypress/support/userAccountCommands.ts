@@ -1,5 +1,4 @@
-import { userAccountSelectors } from "./selectors/userAccountSelectors";
-
+export {};
 declare global {
   namespace Cypress {
     interface Chainable {
@@ -10,5 +9,5 @@ declare global {
 
 Cypress.Commands.add("isUserLoginCorrectly", () => {
   cy.contains("Orders").should("be.visible");
-  cy.title().should("include", "Saleor e-commerce", {setTimeout: 12000});
+  cy.title().should("include", "Saleor e-commerce", { setTimeout: 12000 });
 });

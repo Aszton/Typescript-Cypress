@@ -1,3 +1,3 @@
-import './loginCommands'
-import './userAccountCommands'
-import 'cypress-mochawesome-reporter/register';
+import "./loginCommands";
+import "./userAccountCommands";
+import "cypress-mochawesome-reporter/register";
