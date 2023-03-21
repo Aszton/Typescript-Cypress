@@ -7,7 +7,11 @@
     "electron-tests": "npx cypress run",
     "chrome-tests": "npx cypress run --browser chrome",
     "chrome-visible": "npx cypress run --browser chrome --headed",
-    "cypress-dashboad": "npx cypress run --browser chrome --record --key 63fbb5eb-105a-45ba-acca-3d894e4db877"
+    "cypress-dashboad": "npx cypress run --browser chrome --record --key 63fbb5eb-105a-45ba-acca-3d894e4db877",
+    "dev": "npx cypress run --browser chrome --config baseUrl=https://dev.saleor.io/dashboard/",
+    "test": "npx cypress run --browser chrome --config baseUrl=https://test.saleor.io/dashboard/",
+    "preProd": "npx cypress run --browser chrome --config baseUrl=https://preProd.saleor.io/dashboard/",
+    "prod": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/"
   },
   "repository": {
     "type": "git",
@@ -26,7 +30,7 @@
   "homepage": "https://github.com/Aszton/Typescript-Cypress#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
-    "cypress": "^12.5.1",
+    "cypress": "^12.8.1",
     "cypress-mochawesome-reporter": "^3.3.0",
     "typescript": "^4.9.5"
   }
