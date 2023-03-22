@@ -1,10 +1,10 @@
-import { loginSelectors } from "./selectors/loginSelectors";
+import { loginSelectors } from "../selectors/loginSelectors";
 export {};
 declare global {
   namespace Cypress {
     interface Chainable {
-      fillLoginInputs(email: string, password: string): Chainable<void>;
       openLoginPage(): Chainable<void>;
+      fillLoginInputs(email: string, password: string): Chainable<void>;
       clickSignInButton(): Chainable<void>;
       isLoginErrorMessageDisplayed(): Chainable<void>;
     }

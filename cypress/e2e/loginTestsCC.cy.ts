@@ -1,18 +1,18 @@
 import user from "../fixtures/user.json";
 const { faker } = require("@faker-js/faker");
 
-describe("Login Tests", () => {
+describe("Login Tests by Custom Commands", () => {
   beforeEach(() => {
     cy.openLoginPage();
   });
 
-  it("Login with valid creditentials", () => {
+  it("Correct login", () => {
     cy.fillLoginInputs(user.mail, user.password);
     cy.clickSignInButton();
     cy.isUserLoginCorrectly();
   });
 
-  it("Login with invalid creditentials", () => {
+  it("Incorrect login", () => {
     cy.fillLoginInputs(faker.internet.email(), faker.internet.password());
     cy.clickSignInButton();
     cy.isLoginErrorMessageDisplayed();
