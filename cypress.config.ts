@@ -4,6 +4,7 @@ export default defineConfig({
   chromeWebSecurity: false,
   experimentalModifyObstructiveThirdPartyCode: true,
   e2e: {
+    experimentalRunAllSpecs: true,
     baseUrl: "https://demo.saleor.io/dashboard/",
     viewportWidth: 1280,
     viewportHeight: 720,

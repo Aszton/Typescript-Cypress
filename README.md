@@ -1,5 +1,6 @@
 ![cypress_github](https://miro.medium.com/max/480/1*bMB71PXANGQd0MV5Gx82Jw.jpeg)
 ## This project is an example how to use: </br>
+- Page Object Model
 - Custom commands </br>
 - Fixtures / json files </br>
 - Separate selectors </br>
