@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"11386e937deda2c4dc645e94cba6f508","name":"Login Tests by Custom Commands","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"01f71619f6ef731b0ec90af1616e21f1","name":"Login Tests by Page Object Model","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

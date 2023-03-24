@@ -12,7 +12,7 @@ declare global {
 }
 
 Cypress.Commands.add("openLoginPage", () => {
-  cy.visit("/");
+  cy.visit(Cypress.env("environment"));
   cy.title().should("eq", "Sign in to the Saleor Dashboard");
 });
 

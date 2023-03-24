@@ -22,3 +22,7 @@ npx cypress open
 ```ruby
 npm run chrome-tests
 ```
+6. Open allure report locally:
+```ruby
+allure open
+```

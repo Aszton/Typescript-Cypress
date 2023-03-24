@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 24 15:26:45 CET 2023","Fri Mar 24 15:26:48 CET 2023","2579","","Login Tests by Page Object Model","","","","Incorrect login",""
+"passed","Fri Mar 24 15:26:40 CET 2023","Fri Mar 24 15:26:45 CET 2023","4926","","Login Tests by Page Object Model","","","","Correct login",""
+"passed","Fri Mar 24 15:26:31 CET 2023","Fri Mar 24 15:26:35 CET 2023","3631","","Login Tests by Custom Commands","","","","Incorrect login",""
+"passed","Fri Mar 24 15:26:25 CET 2023","Fri Mar 24 15:26:31 CET 2023","5450","","Login Tests by Custom Commands","","","","Correct login",""
