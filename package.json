@@ -7,11 +7,13 @@
     "electron-tests": "npx cypress run",
     "chrome-tests": "npx cypress run --browser chrome",
     "chrome-visible": "npx cypress run --browser chrome --headed",
+    "chrome-allure-report": "npx cypress run --browser chrome --env allure=true --config baseUrl=https://demo.saleor.io/dashboard/",
     "cypress-dashboad": "npx cypress run --browser chrome --record --key 63fbb5eb-105a-45ba-acca-3d894e4db877",
-    "dev": "npx cypress run --browser chrome --config baseUrl=https://dev.saleor.io/dashboard/",
-    "test": "npx cypress run --browser chrome --config baseUrl=https://test.saleor.io/dashboard/",
-    "preProd": "npx cypress run --browser chrome --config baseUrl=https://preProd.saleor.io/dashboard/",
-    "prod": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/"
+    "dev": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/",
+    "test": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/",
+    "preProd": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/",
+    "prod": "npx cypress run --browser chrome --config baseUrl=https://demo.saleor.io/dashboard/",
+    "allure-create-report": "allure generate allure-results --clean -o allure-report"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
   "homepage": "https://github.com/Aszton/Typescript-Cypress#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
+    "@shelex/cypress-allure-plugin": "^2.37.0",
     "cypress": "^12.8.1",
     "cypress-mochawesome-reporter": "^3.3.0",
     "typescript": "^4.9.5"

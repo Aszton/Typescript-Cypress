@@ -2,7 +2,7 @@ import { loginSelectors } from "../selectors/loginSelectors";
 
 export class Login {
   openLoginPage() {
-    cy.visit("/");
+    cy.visit(Cypress.env("environment"));
     cy.title().should("eq", "Sign in to the Saleor Dashboard");
   }
   fillLoginInputs(user: string, password: string) {
